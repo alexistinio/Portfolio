@@ -10,8 +10,8 @@ body{
     color:white;
     
 }
-
-
+a { color: inherit; } 
+a:hover { color: inherit; } 
 input[type="text"], [type="email"], textarea {
     width: 100%;
     background-color: transparent;
