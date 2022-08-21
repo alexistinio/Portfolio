@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+html{
+
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(5, 5, 39);
+    color:white;
+    
+}
+
+input[type="text"], [type="email"], textarea {
+    width: 100%;
+    background-color: transparent;
+    border:1px solid white;
+    padding:20px;
+    color:white
+}
+input[type="submit"]{
+    width:100%;
+    min-height:60px
+}
+
+.container-fluid{
+    position: relative;
+    border:2px solid transparent; 
+    min-height:42rem;
+      
+}
+
+#projects .container{
+    
+    border: 1px solid gray;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px
+}
+
+#contactme .container{
+    width:50vw;
+    
+}
+
+textarea{ resize:none }
+
+
+h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 1130px) {
+    #contactme .container{
+        width:70vw;
+    }
+  }
+
+  @media only screen and (max-width: 815px) {
+    #contactme .container{
+        width:90vw;
+    }
+  }
