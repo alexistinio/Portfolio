@@ -32,6 +32,49 @@ input[type="submit"]{
       
 }
 
+.tech-stack{
+     
+    width:50vw
+}
+
+@media only screen and (max-width: 1226px) {
+    .tech-stack{
+         
+        width:65vw
+    }
+  }
+
+  @media only screen and (max-width: 920px) {
+    .tech-stack{
+         
+        width:75vw
+    }
+  }
+
+  @media only screen and (max-width: 690px) {
+    .tech-stack{
+         
+        width:95vw
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    .tech-stack{
+         
+        width:75vw
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .tech-stack{
+         
+        width:65vw
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .tech-stack{
+         
+        width:95vw
+    }
+  }
 h2,h3,h4,h5,h6,p{
     font-family: 'Source Sans Pro', sans-serif;
 }
