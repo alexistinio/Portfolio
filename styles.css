@@ -51,14 +51,55 @@ h3,h4,h5,h6{
 }
 
 #insidemyprojects img{
-    width:100%;
-    height:280px;
+    width:85%;
+    height:260px;
 
 }
 
 #insidemyprojects .row{
     margin-top:180px;
 }
+
+@media only screen and (max-width: 1200px) {
+    #insidemyprojects img{
+        width:75%;
+        height:360px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 990px) {
+    #insidemyprojects img{
+        width:75%;
+        height:280px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #insidemyprojects img{
+        width:75%;
+        height:200px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    #insidemyprojects img{
+        width:85%;
+        height:200px;
+    
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    #insidemyprojects img{
+        width:100%;
+        height:200px;
+    
+    }
+  }
+
+
 
 @media only screen and (max-width: 1130px) {
     #contactme .container{
