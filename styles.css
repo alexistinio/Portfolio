@@ -4,6 +4,7 @@
 html{
      
     scroll-behavior: smooth;
+    
 }
 body{
    
@@ -25,11 +26,57 @@ input[type="submit"]{
     min-height:60px
 }
 
-.container-fluid{
+.full-height{
   
-    border:2px solid transparent; 
     min-height:100vh;
-      
+ 
+}
+
+.tech-stack{
+     
+    width:50vw
+}
+
+@media only screen and (max-width: 1226px) {
+    .tech-stack{
+         
+        width:65vw
+    }
+  }
+
+  @media only screen and (max-width: 920px) {
+    .tech-stack{
+         
+        width:75vw
+    }
+  }
+
+  @media only screen and (max-width: 690px) {
+    .tech-stack{
+         
+        width:95vw
+    }
+  }
+  @media only screen and (max-width: 460px) {
+    .tech-stack{
+         
+        width:75vw
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .tech-stack{
+         
+        width:65vw
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .tech-stack{
+         
+        width:95vw
+    }
+  }
+h2,h3,h4,h5,h6,p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #projects .container{
@@ -52,7 +99,7 @@ h3,h4,h5,h6{
 }
 
 #insidemyprojects img{
-    width:85%;
+    width:80%;
     height:260px;
 
 }
@@ -79,7 +126,7 @@ h3,h4,h5,h6{
 
   @media only screen and (max-width: 768px) {
     #insidemyprojects img{
-        width:75%;
+        width:65%;
         height:200px;
     
     }
