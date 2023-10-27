@@ -167,7 +167,7 @@ h3,h4,h5,h6{
   @media only screen and (max-width: 370px) {
     #insidemyprojects img{
         width:100%;
-        height:145px;
+        height:125px;
     }
   }
 
